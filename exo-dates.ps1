@@ -5,7 +5,8 @@ $DateNaissance = [System.DateTime]::new(1906, 6, 9)
 $DateAujourdhui = [System.DateTime]::Today
 
 # Calculer la différence entre aujourd'hui et la date de naissance
-$Difference = $DateAujourdhui - $DateNaissance
+$Difference = $DateAujourdhui - $DateNaissance 
+# surcharge de l'opérateur -
 
 # Afficher les résultats
 Write-Host "Date de naissance : $($DateNaissance.ToShortDateString())"
